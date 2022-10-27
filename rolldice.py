@@ -3,10 +3,7 @@ import random
 response = "y"
    
 while response == "y": 
-      
-    # Gnenerates a random number 
-    # between 1 and 6 (including 
-    # both 1 and 6) 
+
     no = random.randint(1,6) 
 
     if no == 1: 
